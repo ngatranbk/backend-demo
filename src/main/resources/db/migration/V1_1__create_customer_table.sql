@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS "customer" (
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    name VARCHAR(100)
+);
