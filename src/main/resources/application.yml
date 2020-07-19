@@ -8,7 +8,7 @@ spring:
       ddl-auto: none
       show-sql: true
   datasource:
-    url: jdbc:postgresql://localhost:5432/demo
+    url: jdbc:postgresql://192.168.1.12:5432/demo
     username: ngabt
     password: 1234
 flyway:
